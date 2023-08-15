@@ -1,0 +1,13 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.list-container li{
+    list-style: none;
+}
