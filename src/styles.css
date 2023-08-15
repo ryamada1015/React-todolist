@@ -8,6 +8,6 @@ body{
     justify-content: center;
 }
 
-.list-container li{
+.todo-list li{
     list-style: none;
 }
