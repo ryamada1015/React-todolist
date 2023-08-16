@@ -3,11 +3,26 @@
     background-color: beige;
 }
 
-body{
+/* body{
     display: flex;
     justify-content: center;
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .todo-list li{
     list-style: none;
+}
+
+.todo-list label{
+    margin: 0px;
+}
+
+.todo-list button {
+    margin: 10px;
 }

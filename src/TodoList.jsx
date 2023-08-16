@@ -4,7 +4,7 @@ export function TodoList({todos, toggleTodo, removeTodo}){
     return (
         <ul className="todo-list">
             {/* short circuiting (JS) */}
-            {todos.length == 0 && "No todos"}
+            <li className="notodo-msg">{todos.length == 0 && "No todos"}</li>
             {todos.map(todo => {
                 return (
                     <TodoItem 

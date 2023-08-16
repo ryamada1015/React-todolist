@@ -47,9 +47,10 @@ export default function App(){
 
   return (
   <>
+  <div className="container">
     <TodoForm onSubmit={addTodo}/>
     <TodoList todos={todos} toggleTodo={toggleTodo} removeTodo={removeTodo}/>
-    
+    </div>
   </>
   )
 }
